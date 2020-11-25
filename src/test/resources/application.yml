@@ -1,0 +1,15 @@
+azure:
+  cosmosdb:
+    uri: <uri>
+    key: <key>
+    database: <database>
+logging:
+  level:
+    root: WARN
+    org:
+      springframework:
+        web: DEBUG
+      hibernate: ERROR
+spring:
+  profiles:
+    active: develop
